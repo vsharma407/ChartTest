@@ -1,11 +1,11 @@
-
+import Chart from "./Components/Chart"
 
 
 function App() {
 
   return (
-      <div className='w-screen h-screen bg-rose-200'>
-       hello
+      <div className='border border-rose-500'>
+       <Chart />
       </div>
   )
 }
